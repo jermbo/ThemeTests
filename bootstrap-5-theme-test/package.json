@@ -1,0 +1,25 @@
+{
+  "name": "bootstrap-5-theme-test",
+  "version": "1.0.0",
+  "author": "Jeremy \"Jermbo\" Lawson",
+  "license": "MIT",
+  "description": "Testing different FrontEnd Theme Libraries",
+  "scripts": {
+    "start": "concurrently \"npm run clean\" \"npm run dev\"",
+    "dev": "parcel ./src/index.html --out-dir development -p 5555 --open",
+    "clean": "rm -rf ./development && rm -rf ./.cache",
+    "build": "parcel build ./src/index.html --out-dir dist --public-url ./development"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jermbo/ThemeTests.git"
+  },
+  "dependencies": {
+    "bootstrap": "^5.0.0-alpha1",
+    "parcel-bundler": "^1.12.4"
+  },
+  "devDependencies": {
+    "concurrently": "^5.3.0",
+    "sass": "^1.26.10"
+  }
+}

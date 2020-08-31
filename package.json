@@ -1,0 +1,17 @@
+{
+  "name": "themetests",
+  "version": "1.0.0",
+  "author": "Jeremy \"Jermbo\" Lawson",
+  "license": "MIT",
+  "description": "Testing different FrontEnd Theme Libraries",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jermbo/ThemeTests.git"
+  },
+  "dependencies": {
+    "bootstrap": "^5.0.0-alpha1"
+  }
+}
